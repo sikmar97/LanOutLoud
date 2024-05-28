@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <a href="#about" className="text-white font-semibold hover:text-gray-300 px-3 py-2">VÅXTORPS E-SPORTS FÖRENING</a>
           <a href="#galleri" className="text-white font-semibold hover:text-gray-300 px-3 py-2">GALLERI</a>
-          <a href="#biljett" className="text-white font-semibold hover:text-gray-300 px-3 py-2 pr-3">KÖP BILJETT</a>
+          <a href="#biljett" className="text-white font-semibold hover:text-gray-300 px-3 py-2 pr-5">KÖP BILJETT</a>
           <a
             href="https://ebas.sverok.se/blimedlem/24788?fbclid=IwAR1V9OX9RncF1QeV4kYmTf3nnK3TmfVs4lWfPhPTOlj2sYRQp_rOUdgy2uo"
             target="_blank"

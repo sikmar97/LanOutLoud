@@ -18,7 +18,7 @@ export default function Gallery({ images }) {
   return (
     <div className="pt-20" id="galleri">
         <h1 className="text-center font-bold text-white text-4xl">BILDER FRÅN LAN OUT LOUD OKTOBER 2022</h1>
-    <div className="grid max-md:grid-cols-1 xl:grid-cols-3 gap-3 pt-5">
+    <div className="grid max-md:grid-cols-1 xl:grid-cols-3 gap-3 pt-10">
       {images &&
         images.map((imageUrl, index) => (
           <VisibilitySensor
