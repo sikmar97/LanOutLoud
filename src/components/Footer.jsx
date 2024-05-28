@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="md:flex md:pr-6 max-md:pt-5 text-center mx-auto items-center justify-center pt-2">
           <p className="max-md:text-center max-md:pb-1">Powered By</p>
           <a href="https://quicksleek.se/" target="_blank" className="hover:opacity-80 ">
-          <img src={quick_logo} className="mt-[2px]" width={110} alt="Powered By Quick Logo" />
+          <img src={quick_logo} className="mt-[2px] max-md:mx-auto" width={110} alt="Powered By Quick Logo" />
           </a>
         </div>
       </div>

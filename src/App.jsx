@@ -35,6 +35,7 @@ function App() {
           <About />    
           <Styrelse />
           <Gallery images={images} />
+          <Stadgar />
         </div>
       </div>
       <Footer />

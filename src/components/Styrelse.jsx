@@ -9,10 +9,10 @@ const Styrelse = () => {
   return (
     <>
       <RevealY duration={0.5} startPos={-20} delay={0} once={false}>
-        <div id="" className="pt-20 pb-20">
+        <div id="kontakt" className="pt-20 pb-20">
           <div className="flex flex-col justify-between gap-8 pt-12 text-white">
             <div className="w-full flex flex-col justify-center text-center">
-              <h1 className={`${styles.heading2}`}>Kontakta oss</h1>
+              <h1 className={`${styles.heading2} uppercase`}>Kontakta Oss</h1>
               <p className="font-normal text-2xl leading-6 pt-4 lg:max-w-4xl mx-auto">
                 Frågor? Maila till{" "}
                 <a
