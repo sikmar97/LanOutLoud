@@ -10,11 +10,17 @@ import Styrelse from "./components/Styrelse";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery.jsx";
 
+
+
+
 function App() {
   const images = [
-    "https://i0.wp.com/media.lanoutloud.se/2022/11/312796240_1149722252311232_1085811552466798805_n.jpg?resize=766%2C1024&ssl=1",
-    "https://i0.wp.com/media.lanoutloud.se/2022/11/312796240_1149722252311232_1085811552466798805_n.jpg?resize=766%2C1024&ssl=1",
-    "https://i0.wp.com/media.lanoutloud.se/2022/11/312796240_1149722252311232_1085811552466798805_n.jpg?resize=766%2C1024&ssl=1",
+    "/public/images/Gallery/1.jpg",
+    "/public/images/Gallery/3.jpg",
+    "/public/images/Gallery/5.jpg",
+    "/public/images/Gallery/7.jpg",
+    "/public/images/Gallery/8.jpg",
+    "/public/images/Gallery/9.jpg",
   ];
   return (
     <div className="bg-primary w-full overflow-hidden">

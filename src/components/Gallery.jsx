@@ -16,9 +16,9 @@ export default function Gallery({ images }) {
   };
 
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="galleri">
         <h1 className="text-center font-bold text-white text-4xl">BILDER FRÅN LAN OUT LOUD OKTOBER 2022</h1>
-    <div className="grid max-md:grid-cols-1 xl:grid-cols-2 gap-3 pt-5">
+    <div className="grid max-md:grid-cols-1 xl:grid-cols-3 gap-3 pt-5">
       {images &&
         images.map((imageUrl, index) => (
           <VisibilitySensor
@@ -27,10 +27,12 @@ export default function Gallery({ images }) {
             offset={{ bottom: 80 }}
             onChange={(isVisible) => imageVisibleChange(index, isVisible)}
           >
+            <a target="_blank" href={imageUrl}>
             <GridGalleryCard
               imageUrl={imageUrl}
               show={imagesShownArray[index]}
             />
+            </a>
           </VisibilitySensor>
         ))}
     </div>
