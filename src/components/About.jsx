@@ -13,6 +13,7 @@ const About = () => {
           <img
             src={aboutImage}
             className="w-[100%] h-[100%] z-[5] rounded-lg shadow-lg drop-shadow-md"
+            alt="About"
           />
         </div>
         <div className={`${layout.sectionInfo} items-center`}>

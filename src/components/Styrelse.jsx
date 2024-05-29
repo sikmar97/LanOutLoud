@@ -49,8 +49,8 @@ const Styrelse = () => {
               </a>
               </div> */}
 
-              <div class="pt-20  mx-auto">
-                <div className="flex max-md:flex-col max-md:space-y-8 md:mx-36 pt-5 justify-center ">
+              <div class="md:pt-20  mx-auto">
+                <div className="flex max-md:flex-col md:mx-36 pt-5 justify-center ">
                 <a
                 target="_blank"
                 href="https://www.instagram.com/lanoutloudse"

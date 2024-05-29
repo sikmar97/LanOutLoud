@@ -10,12 +10,12 @@ const Navbar = () => {
   };
   return (
     <>
-    <nav className="absolute max-md:sticky z-10 top-0 w-full morph-glass">
+    <nav className="absolute z-10 top-0 w-full morph-glass">
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center ">
           <a className=' ' href="/" onClick={() => window.location.reload()}>
             <img src={logo} alt="arstad_logo" className="w-auto max-md:hidden md:h-24" />
-            <img src={logo2} alt="arstad_logo" className="w-auto md:hidden h-24" />
+  
           </a>
         </div>
         <div className="hidden md:block">
