@@ -9,18 +9,18 @@ import styles from "./style";
 import Styrelse from "./components/Styrelse";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery.jsx";
-import image2 from "../public/images/Gallery/1.jpg"
+
 
 
 
 function App() {
   const images = [
-    {image2},
-    "../public/images/Gallery/3.jpg",
-    "../../public/images/Gallery/5.jpg",
-    "../../public/images/Gallery/7.jpg",
-    "../../public/images/Gallery/8.jpg",
-    "../../public/images/Gallery/9.jpg",
+    "/images/Gallery/1.jpg",
+    "/images/Gallery/3.jpg",
+    "/images/Gallery/5.jpg",
+    "/images/Gallery/7.jpg",
+    "/images/Gallery/8.jpg",
+    "/images/Gallery/9.jpg",
   ];
   return (
     <div className="bg-primary w-full overflow-hidden">
