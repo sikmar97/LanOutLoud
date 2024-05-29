@@ -9,14 +9,14 @@ import styles from "./style";
 import Styrelse from "./components/Styrelse";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery.jsx";
-
+import image2 from "../public/images/Gallery/1.jpg"
 
 
 
 function App() {
   const images = [
-    "../../public/images/Gallery/1.jpg",
-    "../../public/images/Gallery/3.jpg",
+    {image2},
+    "../public/images/Gallery/3.jpg",
     "../../public/images/Gallery/5.jpg",
     "../../public/images/Gallery/7.jpg",
     "../../public/images/Gallery/8.jpg",
