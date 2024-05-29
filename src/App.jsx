@@ -15,12 +15,12 @@ import Gallery from "./components/Gallery.jsx";
 
 function App() {
   const images = [
-    "/public/images/Gallery/1.jpg",
-    "/public/images/Gallery/3.jpg",
-    "/public/images/Gallery/5.jpg",
-    "/public/images/Gallery/7.jpg",
-    "/public/images/Gallery/8.jpg",
-    "/public/images/Gallery/9.jpg",
+    "../../public/images/Gallery/1.jpg",
+    "../../public/images/Gallery/3.jpg",
+    "../../public/images/Gallery/5.jpg",
+    "../../public/images/Gallery/7.jpg",
+    "../../public/images/Gallery/8.jpg",
+    "../../public/images/Gallery/9.jpg",
   ];
   return (
     <div className="bg-primary w-full overflow-hidden">
