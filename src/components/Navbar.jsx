@@ -36,16 +36,16 @@ const Navbar = () => {
         </div>
       <div className='md:hidden'>
       <div className={`md:flex md:items-center md:justify-between ${menuOpen ? 'block' : 'hidden'}`}>
-        <a href="#about" className="block text-center text-white font-semibold hover:text-gray-300  py-2">
+        <a href="#about" className="block text-center text-sm text-white font-semibold hover:text-gray-300  py-2">
           VÅXTORPS E-SPORTS FÖRENING
         </a>
-        <a href="#kontakt" className="block text-center text-white font-semibold hover:text-gray-300  py-2">
+        <a href="#kontakt" className="block text-center text-sm text-white font-semibold hover:text-gray-300  py-2">
           KONTAKT
         </a>
-        <a href="#galleri" className="block text-center text-white font-semibold hover:text-gray-300 py-2">
+        <a href="#galleri" className="block text-center text-sm text-white font-semibold hover:text-gray-300 py-2">
           GALLERI
         </a>
-        <a href="#biljett" className="block text-center text-white font-semibold hover:text-gray-300  py-2 ">
+        <a href="#biljett" className="block text-center text-sm text-white font-semibold hover:text-gray-300  py-2 ">
           KÖP BILJETT
         </a>
       
