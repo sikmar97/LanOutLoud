@@ -17,7 +17,7 @@ const About = () => {
           />
         </div>
         <div className={`${layout.sectionInfo} items-center`}>
-          <h2 className={`${styles.heading2} text-center`}>ETT LAN FÖR ALLA.</h2>
+          <h2 className={`${styles.heading2} text-center max-md:pt-10`}>ETT LAN FÖR ALLA.</h2>
           <p className={`${styles.paragraph} mt-5 text-center`}>
           LAN OUT LOUD är ett LAN av den ideella föreningen "Våxtorps E-Sports Förening (VESF)". Vi vill skapa ett LAN där alla känner sig välkomna. Vi tror på att ett LAN är mer än bara att koppla ihop sin dator. Det är en chans att träffa gamla och nya vänner, skaffa nya kunskaper, utmana sig själv, men framförallt ha riktigt jäkla kul!
           </p>

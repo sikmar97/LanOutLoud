@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center max-md:pt-16">
         <RevealY duration={0.5} startPos={-20} delay={0} once={true}>
           <img className="w-auto h-64 mx-auto max-md:h-34" src={logo} alt="" />
-          <h2 className={`${styles.heading2} text-white z-10 text-center pt-10`}>
+          <h2 className={`${styles.heading2} text-white  z-10 text-center pt-10`}>
           NÄSTA LAN 2024 FREDAG 25 OKTOBER – SÖNDAG 27 OKTOBER
           </h2>
         </RevealY>
